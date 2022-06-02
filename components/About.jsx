@@ -16,11 +16,11 @@ const About = () => {
            <p>As a born talented artist, i can say creativity is a part of me, fascinated with how intricate programming can be,
               I was quickly drawn to learn more
                I started learning javascript and was even more enthused with making interactive. I then started creating some 
-               amazing design and it been a lot of fun. I'm now spending my time to improve my skills in React JS, Firebase, and
+               amazing design and it been a lot of fun. Im now spending my time to improve my skills in React JS, Firebase, and
                learning new technologies.
                    
            </p>
-           <p className="py-2 text-[#5651e5] text-gray-600 underline cursor-pointer">check out some of my projects</p>
+           <p className="py-2 text-[#5651e5]  underline cursor-pointer">check out some of my projects</p>
         </div>
       </div>
   </div>;
