@@ -83,7 +83,7 @@ const Contact = () => {
                   <div className='flex flex-col'>
                     <label className='uppercase text-sm py-2'>Name</label>
                     <input
-                    name={full_name}
+                    name="name"
                     
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -95,7 +95,7 @@ const Contact = () => {
                     </label>
                     <input
                       
-                      name={phone}
+                      name="phone"
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
                     />
@@ -104,7 +104,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Email</label>
                   <input
-                  name={email}
+                  name="email"
                     
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
@@ -113,7 +113,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Subject</label>
                   <input
-                  name={subject}
+                  name="subject"
                     
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -122,7 +122,7 @@ const Contact = () => {
                 <div className='flex flex-col py-2'>
                   <label className='uppercase text-sm py-2'>Message</label>
                   <textarea 
-                  name={message}
+                  name="message"
                  
                    className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
                 </div>

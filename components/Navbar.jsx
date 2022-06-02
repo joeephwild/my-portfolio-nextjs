@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className={nav ? 'fixed md:hidden left-0 top-0 w-full h-screen bg-black/70' : ''}>
             <div className={nav ? ' fixed left-0 top-0 w-[75%] sm:w-[45%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-100'
              : 'fixed left-[-100%] top-0 p-10 ease-in duration-100'}>
-               <div className="flex items-center justify-center justify-around">
+               <div className="flex items-center justify-center">
                    <h2  className="text-center px-1 my-2 md:my-4 rounded-t-xl text-2xl lg:text-5xl text-white bg-blue-600 py-4">jo</h2>
                      <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                      <AiOutlineClose />
