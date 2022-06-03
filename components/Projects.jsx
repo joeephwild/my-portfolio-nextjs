@@ -14,13 +14,13 @@ const Projects = () => {
           <p className="text-xl tracking-widest uppercase text-[#5651e5]">Projects</p>
           <h2 className="py-4 capitalize">my works</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-      <ProjectItem title='Hulu clone' backgroundImg={hulu} projectUrl='./property' />
-       <ProjectItem title='Squidgame website' backgroundImg={squid} projectUrl='./property' />
-      <ProjectItem title='Netflix webpage' backgroundImg={netflixImg} projectUrl='./property' />
-      <ProjectItem title='Driver race' backgroundImg={race} projectUrl='./property' />
-      <ProjectItem title='travel webpage' backgroundImg={travel} projectUrl='./property' />
-      <ProjectItem title='coffee webpage' backgroundImg={coffee} projectUrl='./property' />
-      <ProjectItem title='portfolio webpage' backgroundImg={portfolio} projectUrl='./property' />
+      <ProjectItem title='Hulu clone' backgroundImg={hulu} projectUrl='./hulu' />
+       <ProjectItem title='Squidgame website' backgroundImg={squid} projectUrl='./squid' />
+      <ProjectItem title='Netflix webpage' backgroundImg={netflixImg} projectUrl='./netflix' />
+      <ProjectItem title='Driver race' backgroundImg={race} projectUrl='./race' />
+      <ProjectItem title='travel webpage' backgroundImg={travel} projectUrl='./travel' />
+      <ProjectItem title='coffee webpage' backgroundImg={coffee} projectUrl='./coffee' />
+      <ProjectItem title='portfolio webpage' backgroundImg={portfolio} projectUrl='./portfolio' />
       </div>
     
     </div>
