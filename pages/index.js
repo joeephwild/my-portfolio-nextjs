@@ -10,12 +10,16 @@ export default function Home() {
 
   return (
     <div>
-   <Navbar />
-   <Hero />
+      <Navbar />
+      <div  className="p-5">
+      <Hero />
    <About />
    <Skills />
    <Projects />
    <Contact />
+      </div>
+   
+  
     </div>
   )
 }
