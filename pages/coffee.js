@@ -27,7 +27,7 @@ const coffee = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-              A front-end project of hulu, this app was built using Next js andd styled with tailwindcss.
+             take a cup of coffee and fell so
           </p>
           <Link href="https://coffee-website-xi.vercel.app">
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
