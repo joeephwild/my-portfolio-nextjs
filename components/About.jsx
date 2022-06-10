@@ -13,9 +13,8 @@ const About = () => {
            <p className="upercase text-xl tracking-widest text-[#5651e5]">About Me</p>
            <h2 className="py-4">Who Am I</h2>
            <p className="py-2 text-gray-600 capitalize">Adventure is all i find</p>
-           <p>As a born talented artist, i can say creativity is a part of me, fascinated with how intricate programming can be,
-              I was quickly drawn to learn more
-               I started learning javascript and was even more enthused with making interactive. I then started creating some 
+           <p>HELLO WORLD, my first programming application,got me so hyped and happy, i was just drawn to th feeling.
+               I started learning javascript and was even more enthused with making interactive and responsive applications. I then started creating some 
                amazing design and it been a lot of fun. Im now spending my time to improve my skills in React JS, Firebase, and
                learning new technologies.
                    

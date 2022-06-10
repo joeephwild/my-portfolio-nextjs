@@ -21,7 +21,7 @@ const Hero = () => {
         <h1 className="text-2xl lg:text-xl">Hi, Im <span className="text-[#5651e5]">JOSEPH</span></h1>
         <h1 className='py-2 text-gray-700'>A Frontend Web Developer</h1>
         <p>Im a frontend web developer specializing in building ( and ocacasionally designing)
-            exceptional digital experiences. Currently, Im focused on designing and building respnsive
+            exceptional digital experiences. Currently, Im focused on designing and building responsive
             front-end web application while learning blockchain backend development.
         </p>
         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
