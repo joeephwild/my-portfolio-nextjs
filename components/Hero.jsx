@@ -1,8 +1,7 @@
 import React from "react";
 import Image from 'next/image'
 import work from '../public/hand.svg'
-import { motion } from "framer-motion";
-import hero from '../public/assets/hero2.png'
+import Link from 'next/link'
 import { AiOutlineClose,AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithubAlt, } from 'react-icons/fa'
 
@@ -27,14 +26,22 @@ const Hero = () => {
         </p>
         <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
         <div className="rounded-full p-3 shadow-xl cursor-pointer shadow-gray-400">
+                          <Link href="https://www.linkedin.com/in/joseph-omotade-021b37236">
                           <FaLinkedinIn />
+                          </Link>
                           </div>
-                          <div className="rounded-full shadow-xl p-3 cursor-pointer shadow-gray-400">
-                              <FaGithubAlt />
+                          
+                    <div className="rounded-full shadow-xl p-3 cursor-pointer shadow-gray-400">
+                        <Link href="https://github.com/joeephwild">
+                          <FaGithubAlt />
+                         </Link> 
                           </div>
-                          <div className="rounded-full shadow-lg p-3 cursor-pointer shadow-gray-400">
-                              <AiOutlineMail/>
-                          </div>
+                  <div className="rounded-full shadow-lg p-3 cursor-pointer shadow-gray-400">
+                      <Link href="">
+                      <AiOutlineMail/>
+                      </Link>
+                             
+               </div>
                          
         </div>
      </div>
