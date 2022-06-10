@@ -27,7 +27,7 @@ const travel = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS and is hosted on Firebase. Users are able to search properties based on an Address, City, or ZIP code to retrieve a list of active properties currently for sale. You will be able to view property information as well as the specific location of the property integrated with the Google Maps API. User authentication is available so you can signup & signin to your account with an email address in order to save your favorite properties. This is made possible with Zillow API.
+          This app is built with Nextjs a react framework and styled with tailwindcss.
 
 
           </p>
@@ -50,15 +50,7 @@ const travel = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
-              </p>
+             
             </div>
           </div>
         </div>

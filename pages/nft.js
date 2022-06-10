@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import netflixImg from '../public/assets/projects/netflix.jpg';
+import nftimg from '../public/assets/projects/nftwebsite.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const netflix = () => {
+const nft = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -13,12 +13,12 @@ const netflix = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={netflixImg}
+          src={nftimg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Netflix App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Nft website</h2>
+          <h3>Next js | Tailwindcss</h3>
         </div>
       </div>
 
@@ -27,35 +27,30 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This app was built using React JS and is hosted on Firebase. Users are able to search properties based on an Address, City, or ZIP code to retrieve a list of active properties currently for sale. You will be able to view property information as well as the specific location of the property integrated with the Google Maps API. User authentication is available so you can signup & signin to your account with an email address in order to save your favorite properties. This is made possible with Zillow API.
-
-
+             An nft webpage design, built with nextjs and styled with tailwindcss
           </p>
+          <Link href="https://ethboss.vercel.app">
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          <button className='px-8 py-2 mt-4'>Code</button>
+          </Link>
+          <Link href="https://github.com/joeephwild/nft-website">
+             <button className='px-8 py-2 mt-4'>Code</button>
+          </Link>
+         
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Html5
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Css3
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
-              </p>
+             
             </div>
           </div>
         </div>
@@ -67,4 +62,4 @@ const netflix = () => {
   );
 };
 
-export default netflix;
+export default nft;
