@@ -32,7 +32,7 @@ const portfolio = () => {
           <Link href="https://js-css-portfolio-project-master.vercel.app">
           <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href="https://github.com/joeephwild/JS_CSS_PportfolioProject-master">
+          <Link href="https://github.com/joeephwild/JS_CSS_PortfolioProject-master">
              <button className='px-8 py-2 mt-4'>Code</button>
           </Link>
          
